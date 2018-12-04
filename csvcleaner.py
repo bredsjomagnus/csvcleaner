@@ -17,7 +17,7 @@ mylaps = zip(mylapsheadertitles, mylapsheaderdatatypes)
 
 # setting up hardcard header and datatypes
 hardcardheadertitles = ['tagid', 'frequency', 'signalstrength', 'antenna', 'time', 'datetime', 'hits', 'competitorid', 'competitionnumber', 'firstname', 'lastname', 'lap_time', 'deleted']
-hardcardheaderdatatypes = ['str', 'str', 'int', 'float', 'float', 'int', 'str', 'str', 'int', 'int', 'int', 'str', 'str', 'time', 'str']
+hardcardheaderdatatypes = [str, str, int, float, float, int, str, str, int, int, int, str, str, str, str]
 hardcard = zip(hardcardheadertitles, hardcardheaderdatatypes)
 
 # dictionary with inforamtion of allowed filetypes
