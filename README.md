@@ -1,3 +1,7 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bredsjomagnus/csvcleaner/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bredsjomagnus/csvcleaner/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/bredsjomagnus/csvcleaner/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bredsjomagnus/csvcleaner/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/bredsjomagnus/csvcleaner/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
 # csvcleaner
 ## Racing
 Ett litet hjälpscript för att kontrollera och ställa iordning csv-filer som skall användas till Racingsidan.
