@@ -11,9 +11,9 @@ Ser till att header/names är som de skall, samt att alla kolumner som skall var
 ### Användning
 Scriptet tar tre argument; csvfil som skall behandas, namnet på nya csvfilen efter behandling, racefil-typ (mylaps eller hardcard)
 
-Vill du exempelvis kolla input.csv, som är en mylapsfil, och spara resultatet i output.csv används följande rad.
+Vill du exempelvis kolla input.csv, som är en mylapsfil, och spara resultatet i output.csv skrivs följande:
 
-`$ python3 input.csv output.csv mylaps`
+`$ python3 csvcleaner.py input.csv output.csv mylaps`
 
 ## Vidare att utveckla
 ### Integer NaN

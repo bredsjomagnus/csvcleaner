@@ -76,14 +76,11 @@ except:
     print("Index error. sys.exit(0)")
     sys.exit(0)
 
-
 # header template title and datatype
 headertemplate = zip(*list(allowedheaders[allowedfiletypes[filetypeindex]]))
 headertemplate = list(headertemplate)
 headertemplate_title = headertemplate[0]
 headertemplate_datatype = headertemplate[1]
-
-
 
 # check list lengths
 if len(header) != len(headertemplate_title):
@@ -113,13 +110,10 @@ if len(set(header) & set(headertemplate_title)) < len(header):
     columns = ""
 
     for columnindex, column in enumerate(file):
-        # c pandas Series. A column from dataframe
-        # c = file.loc[:,column]
-
-        # print(type(file[column]))
-
-        
-
+        """ For every column
+            is headertemplate datatype integer
+            clean and convert to int64
+        """
         if headertemplate_datatype[columnindex] == int:
             """ converting to int64 
                 1. Remove non numeric values with to_numeric
